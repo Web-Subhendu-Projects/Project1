@@ -1,0 +1,121 @@
+#{
+	padding: 0px;
+	margin: 0px;
+}
+.socil_media_item {
+  width: 113%; 
+  height: 632px; 
+  background-color: #EABE6C; 
+  border: 1px solid #cccccc; 
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset; 
+  margin-right: 70px;
+  float: right;
+}
+
+.socil_title h4 {
+    font-family: initial;
+    font-weight: bolder;
+    font-size: 25px;  
+    padding: 50px;
+    color: #481E14; 
+}
+
+.title_text p {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 50px;
+    color: #ffff; 
+    padding: 0px 110px 0px 20px;
+    margin-left: 33px;
+    color: #C08B5C;
+}
+
+/*******************************************************************************************************/
+.image_set {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.image_set img {
+    max-width: 110%; 
+    max-height: 100%; 
+    top: 0px;
+    position: relative;
+}
+
+/*********************************************************************/
+.socil_media_lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socil_media_lg img {
+    width: 40px; 
+    height: 30px; 
+}
+.socil_media_lg a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    margin: 0 20px;
+
+}
+
+.socil_media_lg a:hover {
+    background-color: #C4E4FF; 
+    transition: background-color 0.9s ease; 
+}
+
+.socil_media_lg img {
+    vertical-align: middle; 
+    margin-right: 5px; 
+}
+
+/************************************************************************************************/
+
+
+.title_text_sing {
+    text-align: center;
+    font-family: initial;
+    font-weight: bold;
+
+}
+input[type="usernameemail"],
+input[type="username"],
+input[type="name"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 0px); 
+    padding: 8px; 
+    margin-bottom: 4px; 
+    border: 1px solid #97E7E1; 
+    border-radius: 2px; 
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #F7418F;
+    color: #fff; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    text-align: center; 
+    font-weight: bold;
+    font-family: initial;
+    margin-top: 10px; 
+    text-decoration: none;
+}
+
+/******************************************************************************************/

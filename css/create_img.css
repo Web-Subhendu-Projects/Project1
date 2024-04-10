@@ -1,0 +1,212 @@
+#{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.col-12 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.hader_title {
+  flex: left;
+}
+
+.hader_title h1 {
+  font-size: 35px;
+  color: #FC819E;
+  margin: 30px 0;
+  font-family: initial;
+
+}
+
+/*
+*********************************************************************************************/
+.hader_title_file {
+    text-align: center; 
+    
+}
+
+/* Styling the h1 tag */
+.hader_title_file h1 {
+    font-size: 34px; 
+    font-weight: bold;
+    color: #333; 
+
+}
+
+.hader_title_file p {
+    font-size: 18px; 
+    color: #B3C8CF;
+    margin-right: 66px;
+}
+
+.hader_title_file_name {
+    text-align: center; 
+    margin-right: 33%; 
+}
+
+
+.hader_title_file_name h4 {
+    font-size: 25px; 
+    color: #333; 
+    font-weight: bold;
+}
+
+/**********************************************************************************/
+
+.rounded-image-box {
+    position: relative;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 2px solid #ccc; 
+    display: flex;
+    margin-left: 27%;
+
+}
+    .rounded-image-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    #imageView {
+        margin-top: 20px;
+    }
+
+.rounded-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the entire box without stretching */
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust icon size as needed */
+    color: #333; /* Adjust icon color as needed */
+}
+
+
+
+/**********************************************************************************************/
+
+    .custom-file-upload {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #007bff; /* Button background color */
+        color: #fff; /* Button text color */
+        border: none;
+        border-radius: 5px;
+    }
+
+    .custom-file-upload:hover {
+        background-color: #0056b3; /* Change background color on hover */
+    }
+
+.fas{
+	font-size: 20px;
+	color: #496989;
+	font-weight: bold;
+}
+
+.add_locatio {
+        margin-right: 24%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .add_locatio h1 {
+        font-size: 30px;
+        color: #333;
+        margin: 10; 
+    }
+.add_locatio_title {
+        margin-right: 30%;
+        text-align: center;
+    }
+
+    .add_locatio_title p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333; 
+        margin: 0; 
+    }
+.underline-input {
+        border: none;
+        border-bottom: 1px solid #333; 
+        outline: none; 
+        padding: 5px;
+        font-size: 30px;
+        width: 100%; 
+        margin-left: 38%;
+    }
+    .underline-input:hover {
+        border-bottom: 4px solid #007bff; 
+    }
+
+  
+    .underline-input:focus {
+        border-bottom: 2px solid #007bff; 
+    }
+
+/*    *********************************************************************************/
+
+.button-container {
+    text-align: center; 
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #F7418F;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px;
+    margin-right: 30%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button a {
+    text-decoration: none; /* Remove underline */
+    color: #FFFFFF; /* Set color to white */
+    font-weight: bold; /* Set font weight to bold */
+}
+
